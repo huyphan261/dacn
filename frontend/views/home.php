@@ -106,7 +106,7 @@ $mqtts = $mqttDao->findById($room_id['dashboard_id']);   //Lay so thu tu mqttpar
                                     </div>
                                 </div>
                                 <div class="light-bulb-off off ui-draggable" >
-                                    <div class="light-bulb-on img-responsive" style="opacity: 0;"></div>
+                                    <div class="light-bulb-on" style="opacity: 0;"></div>
                                 </div>
                             </div>
                         </div>
@@ -123,8 +123,8 @@ $mqtts = $mqttDao->findById($room_id['dashboard_id']);   //Lay so thu tu mqttpar
                                         </span>
                                     </div>
                                 </div>
-                                <div>
-                                    <img class="img responsive" src="../pictures/fan.jpg" id="fan<?=$key['device_value']?>">
+                                <div class="img">
+                                    <img src="../pictures/fan.jpg" id="fan<?=$key['device_value']?>">
                                 </div>
                             </div>
                         </div>

@@ -101,19 +101,13 @@
 
 .img {
     width: 150px;
-    height: 150px;
+    height: 150%;
     padding: 7%;
     position: absolute;
-    top: -6%;
+    top: 5%;
     left: 40%;
 }
 .rotate {
-    width: 150px;
-    height: 150px;
-    padding: 7%;
-    position: absolute;
-    top: -6%;
-    left: 40%;
     -webkit-animation-name: spin;
     -webkit-animation-duration: 0.5s;
     -webkit-animation-iteration-count: infinite;
